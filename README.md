@@ -155,7 +155,7 @@ Pode! Mas os exemplos estão estruturados para Vue CLI, então adapte conforme s
 
 **Onde encontro mais material?**
 - [Documentação Oficial Vue.js](https://vuejs.org/)
-- [Canal Hora de Codar](https://www.youtube.com/@horadecodar)
+- [Canal Matheus Battisti](https://www.youtube.com/@MatheusBattisti)
 - [Comunidade Vue.js Brasil](https://t.me/vuejsbrasil)
 
 ---
