@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Vue.js - Matheus Battisti</title>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="src/app.js" defer></script>
+</head>
+<body>
+    <div id="app"> 
+        <form id="app-form">
+            <input type="text" v-model="input_nome" placeholder="Digite seu nome">
+            <input type="submit" value="Enviar" @click="submitForm">
+        </form>
+        <p>O meu nome é: {{ input_nome }} "(Data Binding)"</p>
+        <p>O meu nome é: {{ nome }} "(Evento ao enviar)"</p>
+    </div>
+</body>
+</html>

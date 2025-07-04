@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Vue.js - Matheus Battisti</title>
+    <script src="https://unpkg.com/vue@3"></script> <!-- Importa a biblioteca Vue.js da CDN para que possamos usar suas funcionalidades -->
+    <script src="src/app.js" defer></script> <!-- Importa o arquivo app.js que contém a lógica do Vue.js. O atributo defer garante que o script seja executado após o carregamento completo do HTML -->>
+</head>
+<body>
+    <div id="app"> <!--Nessa div é aonde mostrara as informações referente ao src/app.js-->
+        <p>Meu nome é: {{ nome }}</p> <!--{{nome}} é a forma de mostrar o valor da variável nome do app.js-->
+        <p>Minha idade é: {{ idade }}</p>
+    </div>
+</body>
+</html>
